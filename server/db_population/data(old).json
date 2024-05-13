@@ -1,0 +1,2167 @@
+[
+  {
+    "model": "hiketracking.customuser",
+    "pk": 1,
+    "fields": {
+      "email": "g@mail.com",
+      "role": "localguide",
+      "password": "pbkdf2_sha256$390000$tp5Q3aUxKCKdBoDQyTl1uE$hc+05eIs5g7Bgzwl+xSm9NTcBiVq7fI6+45tjYpeeqo=",
+      "is_active": 1,
+      "is_confirmed": 1
+    }
+  },
+  {
+    "model": "hiketracking.customuser",
+    "pk": 2,
+    "fields": {
+      "email": "h@mail.com",
+      "role": "hiker",
+      "password": "pbkdf2_sha256$390000$tp5Q3aUxKCKdBoDQyTl1uE$hc+05eIs5g7Bgzwl+xSm9NTcBiVq7fI6+45tjYpeeqo=",
+      "is_active": 1,
+      "is_confirmed": 1
+    }
+  },
+  {
+    "model": "hiketracking.customuser",
+    "pk": 3,
+    "fields": {
+      "email": "pm@mail.com",
+      "role": "platformmanager",
+      "password": "pbkdf2_sha256$390000$tp5Q3aUxKCKdBoDQyTl1uE$hc+05eIs5g7Bgzwl+xSm9NTcBiVq7fI6+45tjYpeeqo=",
+      "is_active": 1,
+      "is_confirmed": 1
+    }
+  },
+  {
+    "model": "hiketracking.customuser",
+    "pk": 4,
+    "fields": {
+      "email": "hw@mail.com",
+      "role": "hutworker",
+      "password": "pbkdf2_sha256$390000$tp5Q3aUxKCKdBoDQyTl1uE$hc+05eIs5g7Bgzwl+xSm9NTcBiVq7fI6+45tjYpeeqo=",
+      "is_active": 1,
+      "is_confirmed": 1
+    }
+  },
+  {
+    "model": "hiketracking.customuser",
+    "pk": 5,
+    "fields": {
+      "email": "hw2@mail.com",
+      "role": "hutworker",
+      "password": "pbkdf2_sha256$390000$tp5Q3aUxKCKdBoDQyTl1uE$hc+05eIs5g7Bgzwl+xSm9NTcBiVq7fI6+45tjYpeeqo=",
+      "is_active": 1,
+      "is_confirmed": 0
+    }
+  },
+  {
+    "model": "hiketracking.customuser",
+    "pk": 17,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$ifjGdP7ueT3cwTeELvt4o2$/Nbc27DWB9RHQ26phdc4E2KmZe7lzv4WfpdiAyU4woQ=",
+      "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
+      "email": "md@gmail.com",
+      "role": "admin",
+      "is_staff": true,
+      "is_active": true,
+      "is_confirmed": 1,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 1,
+    "fields": {
+      "latitude": 45.177786,
+      "longitude": 7.083372,
+      "province": "Torino",
+      "village": "Mompantero",
+      "address": "Rifugio La Riposa",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 2,
+    "fields": {
+      "latitude": 45.203531,
+      "longitude": 7.07734,
+      "province": "Torino",
+      "village": "Mompantero",
+      "address": "Rocciamelone",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 3,
+    "fields": {
+      "latitude": 44.88604,
+      "longitude": 6.847677,
+      "province": "Torino",
+      "village": "Cesana torinese",
+      "address": "10054 Cesana torinese TO",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 4,
+    "fields": {
+      "latitude": 44.886133,
+      "longitude": 6.847552,
+      "province": "Torino",
+      "village": "Cesana torinese",
+      "address": "10054 Cesana torinese TO",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 7,
+    "fields": {
+      "latitude": 45.089292,
+      "longitude": 6.675187,
+      "province": "Torino",
+      "village": "Bardonecchia",
+      "address": "Grange della Rho",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 8,
+    "fields": {
+      "latitude": 45.089308,
+      "longitude": 6.675215,
+      "province": "Torino",
+      "village": "Bardonecchia",
+      "address": "Punta Nera",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 9,
+    "fields": {
+      "latitude": 44.938467,
+      "longitude": 6.749585,
+      "province": "Torino",
+      "village": "Claviere",
+      "address": "Claviere (Torino)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 10,
+    "fields": {
+      "latitude": 44.9,
+      "longitude": 6.76687,
+      "province": "Torino",
+      "village": "Claviere",
+      "address": "Lago dei Sette Colori (Lago Gignoux)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 11,
+    "fields": {
+      "latitude": 44.9941,
+      "longitude": 7.455977,
+      "province": "Torino",
+      "village": "Piossasco",
+      "address": "Ca’ Dorina – Piossasco (TO) ",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 12,
+    "fields": {
+      "latitude": 45.021651,
+      "longitude": 7.42173,
+      "province": "Torino",
+      "village": "Trana",
+      "address": "Monte Pietraborga",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 13,
+    "fields": {
+      "latitude": 44.597277296707034,
+      "longitude": 7.202730746939778,
+      "province": "Cuneo",
+      "village": "Becetto",
+      "address": "Borgata Ruà – Becetto (CN)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 14,
+    "fields": {
+      "latitude": 44.597145952284336,
+      "longitude": 7.202682048082352,
+      "province": "Cuneo",
+      "village": "Paesana",
+      "address": "Testa di Garitta Nuova",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 15,
+    "fields": {
+      "latitude": 44.596613,
+      "longitude": 7.201825,
+      "province": "Cuneo",
+      "village": "Becetto",
+      "address": "Borgata Ruà – Becetto (CN)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 16,
+    "fields": {
+      "latitude": 44.615185,
+      "longitude": 7.177367,
+      "province": "Cuneo",
+      "village": "Sampeyre",
+      "address": "Cima di Crosa",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 17,
+    "fields": {
+      "latitude": 44.59706758148968,
+      "longitude": 7.202494293451309,
+      "province": "Cuneo",
+      "village": "Becetto",
+      "address": "Becetto (CN)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 18,
+    "fields": {
+      "latitude": 44.6216659527272,
+      "longitude": 7.200692351907492,
+      "province": "Cuneo",
+      "village": "Paesana",
+      "address": "Monte Riba del Gias",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 19,
+    "fields": {
+      "latitude": 44.57619898952544,
+      "longitude": 7.180788516998291,
+      "province": "Cuneo",
+      "village": "Sampeyre",
+      "address": "Sampeyre (CN)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 20,
+    "fields": {
+      "latitude": 44.700645,
+      "longitude": 7.117767,
+      "province": "Cuneo",
+      "village": "Crissolo",
+      "address": "Pian della Regina – Crissolo (CN)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 21,
+    "fields": {
+      "latitude": 44.700759,
+      "longitude": 7.117535,
+      "province": "Cuneo",
+      "village": "Crissolo",
+      "address": "Laghi del Monviso",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 22,
+    "fields": {
+      "latitude": 45.95614,
+      "longitude": 9.1502,
+      "province": "Como",
+      "village": "Colonno",
+      "address": "Via Luigi Civetta",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 23,
+    "fields": {
+      "latitude": 45.99601,
+      "longitude": 9.23868,
+      "province": "Como",
+      "village": "Griante",
+      "address": "Villa Margherita Ricordi",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 24,
+    "fields": {
+      "latitude": 40.63111,
+      "longitude": 14.53658,
+      "province": "Napoli",
+      "village": "Bomerano",
+      "address": "Bomerano Pianillo (NA)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 25,
+    "fields": {
+      "latitude": 40.62984,
+      "longitude": 14.50302,
+      "province": "Salerno",
+      "village": "Nocelle",
+      "address": "Nocelle (SA)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 26,
+    "fields": {
+      "latitude": 44.14562,
+      "longitude": 9.65342,
+      "province": "La Spezia",
+      "village": "Monteresso",
+      "address": "Monteresso (SP)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 27,
+    "fields": {
+      "latitude": 44.13863,
+      "longitude": 9.67826,
+      "province": "La Spezia",
+      "village": "Vernazza",
+      "address": "Vernazza (SP)",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 101,
+    "fields": {
+      "latitude": 38.1244982,
+      "longitude": 12.7880075,
+      "province": "Trapani",
+      "village": "San Vito Lo Capo",
+      "address": "Riserva dello zingaro ingresso nord",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 102,
+    "fields": {
+      "latitude": 38.0817236,
+      "longitude": 12.8084234,
+      "province": "Trapani",
+      "village": "Castellammare del golfo",
+      "address": "Riserva dello zingaro",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 103,
+    "fields": {
+      "latitude": 46.030789,
+      "longitude": 10.000777,
+      "province": "Bergamo",
+      "village": "Bergamo",
+      "address": "Via Casa Corti 3",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 104,
+    "fields": {
+      "latitude": 37.987578,
+      "longitude": 12.750318,
+      "province": "Trapani",
+      "village": "Buseto palizzolo",
+      "address": "Ingresso Bosco Scorace",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 105,
+    "fields": {
+      "latitude": 37.988726,
+      "longitude": 12.781462,
+      "province": "Trapani",
+      "village": "Buseto palizzolo",
+      "address": "Punta del monte Scorace",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 106,
+    "fields": {
+      "latitude": 45.85661,
+      "longitude": 7.81332,
+      "province": "Aosta",
+      "village": "Gressoney",
+      "address": "Loc. Tschaval",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 107,
+    "fields": {
+      "latitude": 38.07196,
+      "longitude": 12.754372,
+      "province": "Trapani",
+      "village": "Custonaci",
+      "address": "Purgatorio",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 108,
+    "fields": {
+      "latitude": 38.055408,
+      "longitude": 12.775705,
+      "province": "Trapani",
+      "village": "Custonaci",
+      "address": "Punta del monte Sparagio",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 110,
+    "fields": {
+      "latitude": 38.028741,
+      "longitude": 12.601088,
+      "province": "Trapani",
+      "village": "Erice",
+      "address": "Casa Santa Erice",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 111,
+    "fields": {
+      "latitude": 38.035817,
+      "longitude": 12.591268,
+      "province": "Trapani",
+      "village": "Erice",
+      "address": "Torretta Pepoli",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 113,
+    "fields": {
+      "latitude": 38.096874,
+      "longitude": 12.66306,
+      "province": "Trapani",
+      "village": "Custonaci",
+      "address": "Cornino",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 114,
+    "fields": {
+      "latitude": 38.105637,
+      "longitude": 12.669372,
+      "province": "Trapani",
+      "village": "Custonaci",
+      "address": "Punta Cofano",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 116,
+    "fields": {
+      "latitude": 45.740927,
+      "longitude": 10.795999,
+      "province": "Verona",
+      "village": "Cassone",
+      "address": "Via Gardesana",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 117,
+    "fields": {
+      "latitude": 45.779783,
+      "longitude": 10.81679,
+      "province": "Verona",
+      "village": "Malcesine",
+      "address": "Via Gardesana orientale",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 119,
+    "fields": {
+      "latitude": 38.001995,
+      "longitude": 13.089526,
+      "province": "Palermo",
+      "village": "Partinico",
+      "address": "Lago Poma Nord",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 120,
+    "fields": {
+      "latitude": 37.973715,
+      "longitude": 13.120139,
+      "province": "Palermo",
+      "village": "Partinico",
+      "address": "Lago Poma sud-est",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 122,
+    "fields": {
+      "latitude": 37.935226,
+      "longitude": 12.272521,
+      "province": "Trapani",
+      "village": "Favignana",
+      "address": "Faro di punta sottile",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 123,
+    "fields": {
+      "latitude": 37.9071,
+      "longitude": 12.365328,
+      "province": "Trapani",
+      "village": "Favignana",
+      "address": "Faro di punta Marsala",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 125,
+    "fields": {
+      "latitude": 37.655399,
+      "longitude": 14.983877,
+      "province": "Catania",
+      "village": "Belpasso",
+      "address": "Monte di San Leo",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 126,
+    "fields": {
+      "latitude": 37.749308,
+      "longitude": 14.995278,
+      "province": "Catania",
+      "village": "Catania",
+      "address": "Monte Etna",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 128,
+    "fields": {
+      "latitude": 37.69954,
+      "longitude": 13.142291,
+      "province": "Palermo",
+      "village": "Contessa Entellina",
+      "address": "Parco dei Sicani ingresso Ovest",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 129,
+    "fields": {
+      "latitude": 37.689523,
+      "longitude": 13.174764,
+      "province": "Palermo",
+      "village": "Contessa Entellina",
+      "address": "Monte San Genuardo",
+      "type": ""
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 131,
+    "fields": {
+      "latitude": 40.85638,
+      "longitude": 17.122925,
+      "province": "Apulia",
+      "village": "Putignano",
+      "address": "Via Vincenzo Petruzzi 107, 70017 Putignano",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 132,
+    "fields": {
+      "latitude": 40.786604,
+      "longitude": 17.241783,
+      "province": "Bari",
+      "village": "Alberobello",
+      "address": "Via Margherita 45, 70011 Alberobello",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 133,
+    "fields": {
+      "latitude": 40.530318,
+      "longitude": 17.430459,
+      "province": "Taranto,",
+      "village": "Grottaglie",
+      "address": "Via Leone XIII 9, 74023 Grottaglie",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 134,
+    "fields": {
+      "latitude": 40.472191,
+      "longitude": 17.237648,
+      "province": "Trento",
+      "village": "Taranto",
+      "address": "Via Niccolò Tommaso D'Aquino 42, 74123 Taranto",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 135,
+    "fields": {
+      "latitude": 40.472204,
+      "longitude": 17.237745,
+      "province": "Trento",
+      "village": "trento",
+      "address": "Via Niccolò Tommaso D'Aquino 44, 74123 Taranto Taranto Italia",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 136,
+    "fields": {
+      "latitude": 40.581585,
+      "longitude": 17.113218,
+      "province": "Apulia",
+      "village": "Taranto",
+      "address": "Ferrovie Sudest, Strada Statale 7 Via Appia, Massafra, Taranto, Apulia, 74016, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 137,
+    "fields": {
+      "latitude": 40.472825,
+      "longitude": 17.237708,
+      "province": "Apulia",
+      "village": "Taranto",
+      "address": "Ferrovie Sudest, Strada Statale 7 Via Appia, Massafra, Taranto, Apulia, 74016, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 138,
+    "fields": {
+      "latitude": 40.472957,
+      "longitude": 17.237864,
+      "province": "Apulia",
+      "village": "Taranto",
+      "address": "Chiesa di San Pasquale Bailon, 37, Corso Umberto primo, Taranto, Apulia, 74123, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 139,
+    "fields": {
+      "latitude": 40.417626,
+      "longitude": 17.216878,
+      "province": "Apulia",
+      "village": "Taranto",
+      "address": "Via Latterini, San Vito, Taranto, Apulia, 74122, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 140,
+    "fields": {
+      "latitude": 40.417493,
+      "longitude": 17.216862,
+      "province": "Apulia",
+      "village": "Taranto",
+      "address": "Via Latterini, San Vito, Taranto, Apulia, 74122, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 141,
+    "fields": {
+      "latitude": 40.408507,
+      "longitude": 17.240423,
+      "province": "Apulia",
+      "village": "Taranto",
+      "address": "Via Latterini, San Vito, Taranto, Apulia, 74122, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 142,
+    "fields": {
+      "latitude": 40.408589,
+      "longitude": 17.240701,
+      "province": "Apulia",
+      "village": "Taranto",
+      "address": "Bar Melucci, Via Sciabelle, Lama, Taranto, Apulia, 74122, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 143,
+    "fields": {
+      "latitude": 40.403123,
+      "longitude": 17.264042,
+      "province": "Apulia",
+      "village": "Taranto",
+      "address": "Capolinea autobus \"Pezzavilla\", Talsano, Taranto, Apulia, 74122, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 144,
+    "fields": {
+      "latitude": 40.402498,
+      "longitude": 17.264316,
+      "province": "Apulia",
+      "village": "Taranto",
+      "address": "Via Carlo Magno, Talsano, Taranto, Apulia, 74122, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 145,
+    "fields": {
+      "latitude": 40.35113,
+      "longitude": 15.001618,
+      "province": "Campania",
+      "village": "Salerno",
+      "address": "Parcheggio, Agropoli, Salerno, Campania, 84043, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 146,
+    "fields": {
+      "latitude": 40.284635,
+      "longitude": 14.946704,
+      "province": "Campania",
+      "village": "Salerno",
+      "address": "PerBacco, via Flavio Gioia, Santa Maria di Castellabate, Castellabate, Salerno, Campania, 84048, Ita",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 147,
+    "fields": {
+      "latitude": 40.284887,
+      "longitude": 14.94611,
+      "province": "Campania",
+      "village": "Salerno",
+      "address": "Santa Maria di Castellabate, Castellabate, Salerno, Campania, 84048, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 148,
+    "fields": {
+      "latitude": 40.284837,
+      "longitude": 14.945685,
+      "province": "Campania",
+      "village": "Salerno",
+      "address": "Santa Maria di Castellabate, Castellabate, Salerno, Campania, 84048, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 149,
+    "fields": {
+      "latitude": 40.284888,
+      "longitude": 14.94611,
+      "province": "Campania",
+      "village": "Salerno",
+      "address": "Santa Maria di Castellabate, Castellabate, Salerno, Campania, 84048, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 150,
+    "fields": {
+      "latitude": 40.284838,
+      "longitude": 14.945685,
+      "province": "Campania",
+      "village": "Salerno",
+      "address": "Santa Maria di Castellabate, Castellabate, Salerno, Campania, 84048, Italy",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 151,
+    "fields": {
+      "latitude": 44.240084,
+      "longitude": 9.485246,
+      "province": "Metropolitan City of Genoa",
+      "village": "Mongelia",
+      "address": "Località la Secca, 1, 16030 Moneglia GE",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 152,
+    "fields": {
+      "latitude": 44.167137,
+      "longitude": 9.613327,
+      "province": "La Spezia",
+      "village": "Levanto",
+      "address": "Via Guido Semenza, 5, 19015 Levanto SP",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 153,
+    "fields": {
+      "latitude": 44.851584,
+      "longitude": 9.866935,
+      "province": "Piacenza",
+      "village": "Castell'Arquato ",
+      "address": "Via Sforza Caolzio, 9, 29014 Castell'Arquato PC",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 154,
+    "fields": {
+      "latitude": 44.8673530,
+      "longitude": 10.057698,
+      "province": "Parma",
+      "village": "Fidenza",
+      "address": "Via Camillo Benso di Cavour",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 155,
+    "fields": {
+      "latitude": 44.841117,
+      "longitude": 9.995562,
+      "province": "Parma",
+      "village": "Salsomaggiore Terme",
+      "address": "Loc. San Nicomede, 29, 43039 Salsomaggiore Terme PR",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 156,
+    "fields": {
+      "latitude": 44.840891,
+      "longitude": 9.999061,
+      "province": "Parma",
+      "village": "Salsomaggiore Terme",
+      "address": "Salsomaggiore Terme (PR)",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 157,
+    "fields": {
+      "latitude": 44.69066,
+      "longitude": 10.098623,
+      "province": "Parma",
+      "village": "Fornovo di Taro",
+      "address": "Via Cesare Battisti, 7, 43045 Fornovo di Taro PR",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 158,
+    "fields": {
+      "latitude": 44.584838,
+      "longitude": 10.033527,
+      "province": "Parma",
+      "village": "Cassio",
+      "address": "Cassio (PR)",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 159,
+    "fields": {
+      "latitude": 44.906763,
+      "longitude": 9.770198,
+      "province": "Piacenza",
+      "village": "Carpaneto",
+      "address": "Carpaneto (PC)",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 160,
+    "fields": {
+      "latitude": 44.851585,
+      "longitude": 9.866935,
+      "province": "Piacenza",
+      "village": "Castell'Arquato ",
+      "address": "Via Sforza Caolzio, 9, 29014 Castell'Arquato PC",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 161,
+    "fields": {
+      "latitude": 44.584839,
+      "longitude": 10.033528,
+      "province": "Parma",
+      "village": "Cassio",
+      "address": "Cassio (PR)",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 162,
+    "fields": {
+      "latitude": 44.510059,
+      "longitude": 9.989216,
+      "province": "Parma",
+      "village": "Berceto ",
+      "address": "Berceto (PR)",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 163,
+    "fields": {
+      "latitude": 44.422712,
+      "longitude": 9.936237,
+      "province": "Massa and Carrara",
+      "village": "Previde",
+      "address": "Previde(MS)",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 164,
+    "fields": {
+      "latitude": 44.331833,
+      "longitude": 9.936237,
+      "province": "Massa and Carrara",
+      "village": "Filattiera",
+      "address": "Filattiera (MS)",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 165,
+    "fields": {
+      "latitude": 40.66605,
+      "longitude": 16.61339,
+      "province": "",
+      "village": "",
+      "address": "Via Roma 12",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 166,
+    "fields": {
+      "latitude": 40.67208,
+      "longitude": 16.62886,
+      "province": "Matera",
+      "village": "Trasano",
+      "address": "Viale Trasano",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 167,
+    "fields": {
+      "latitude": 40.51674,
+      "longitude": 16.06289,
+      "province": "Potenza",
+      "village": "Pietrapertosa",
+      "address": "Parco Pierto 10",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 168,
+    "fields": {
+      "latitude": 40.67092,
+      "longitude": 16.63172,
+      "province": "Matera",
+      "village": "Pedale della Palomba",
+      "address": "Statale 123",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 169,
+    "fields": {
+      "latitude": 39.93403,
+      "longitude": 16.16156,
+      "province": "Potenza",
+      "village": "Viggianello",
+      "address": "Viggianello Piazza Centrale",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 170,
+    "fields": {
+      "latitude": 40.5243,
+      "longitude": 16.04634,
+      "province": "Potenza",
+      "village": "Castelmezzano",
+      "address": "Via Tredicilance 12",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 171,
+    "fields": {
+      "latitude": 40.14136,
+      "longitude": 15.9827,
+      "province": "Potenza",
+      "village": "Castelsaraceno",
+      "address": "Piazzale Ceti Radogna",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 172,
+    "fields": {
+      "latitude": 39.92537,
+      "longitude": 16.21372,
+      "province": "Potenza",
+      "village": "Terranova di Pollino",
+      "address": "Via Pollino 12",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 173,
+    "fields": {
+      "latitude": 40.67202,
+      "longitude": 16.62876,
+      "province": "Matera",
+      "village": "Trasano",
+      "address": "Lombardo Al Piceno",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 174,
+    "fields": {
+      "latitude": 40.69908,
+      "longitude": 16.47273,
+      "province": "",
+      "village": "",
+      "address": "Via Marco polo 12",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk": 175,
+    "fields": {
+      "latitude": 40.66681,
+      "longitude": 16.61095,
+      "province": "",
+      "village": "",
+      "address": "Lombardo 13",
+      "type": "none"
+    }
+  }
+  ,
+  {
+    "model": "hiketracking.hike",
+    "pk": 300,
+    "fields": {
+      "title": "Sentiero per il ROCCIAMELONE",
+      "length": 9,
+      "expected_time": 240,
+      "ascent": 3538,
+      "difficulty": "Pro Hiker",
+      "description": "Un percorso conosciutissimo, molto amato da Valsusini e non solo. È lungo e impegnativo per via del dislivello, ma segnalato benissimo e soprattutto con un punto di appoggio a metà strada circa (Il Rifugio gestito Ca’ d’Asti)",
+      "track_file": "tracks/rocciamelone.gpx",
+      "start_point": 1,
+      "end_point": 2,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 2,
+    "fields": {
+      "title": "Sentiero per il ROC DEL BOUCHER",
+      "length": 12,
+      "expected_time": 180,
+      "ascent": 3285,
+      "difficulty": "Pro Hiker",
+      "description": "Questa escursione non è consigliata per i neofiti della montagna, per i principianti e per chi non ha un buon livello di allenamento: infatti oltre ad un dislivello abbastanza marcato anche la mancanza di una traccia ben segnalata ed evidente complica non di poco la progressione. È inoltre richiesta una certa abitudine e tranquillità a percorrere tratti esposti.",
+      "track_file": "tracks/Roc_del_Boucher.gpx",
+      "start_point": 3,
+      "end_point": 4,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 3,
+    "fields": {
+      "title": "Sentiero per PUNTA NERA",
+      "length": 18,
+      "expected_time": 150,
+      "ascent": 3047,
+      "difficulty": "Pro Hiker",
+      "description": "Percorso circolare che va a toccare il cuore del Gruppo Sorapiss. Tutto il settore sud est rimane purtroppo sconosciuto, poiché coperto dalle muraglie possenti del Fopà di Mattia e della Punta di Sorapiss, ma si ha modo di memorizzare tutta la fetta di territorio che va dal Passo Tre Croci alle pendici della Punta Nera. Nel complesso lungo e faticoso, consigliato a chi ha le gambe buone e sa trovare gli stimoli necessari. Sarà compensato da un ambiente sempre vario e comunque attraente. Dolce quando si rimontano le gobbe prative che avvicinano Forcella Faloria, severo lo scavalcamento della Sella di Punta Nera, impressionante la discesa sotto gli strapiombi (nel vero senso della parola) della Torre Pupa, lunare tra le pietraie che accompagnano al delizioso Lago di Sorapiss e sereno il rientro al Passo, sopra la Val Ansiei. L’ascesa alla Punta Nera, facoltativa, è la ciliegina sulla torta. Si domina la conca di Cortina, si ammirano le sue montagne tranne i tormentati e continui smantellamenti sul Faloria.",
+      "track_file": "tracks/Punta Nera e Colle della Rho.gpx",
+      "start_point": 7,
+      "end_point": 8,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 5,
+    "fields": {
+      "title": "Sentiero per il LAGO DEI SETTE COLORI",
+      "length": 21,
+      "expected_time": 180,
+      "ascent": 2329,
+      "difficulty": "Tourist",
+      "description": "La passeggiata proposta è semplice. Il percorso è caratterizzato da un primo tratto in salita e successivamente da saliscendi che si distendono su ampi tratti prativi. Risulta comunque indicato a famiglie con bambini in età scolare. La partenza dal rifugio Capanna Mautino consente di avere un punto di ristoro e l’arrivo al Lago è indicato per pic-nic.",
+      "track_file": "tracks/Lago dei 7 colori (lago gignoux).gpx",
+      "start_point": 7,
+      "end_point": 8,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 6,
+    "fields": {
+      "title": "Sentiero per il MONTE PIETRABORGA da PIOSSASCO",
+      "length": 15,
+      "expected_time": 120,
+      "ascent": 926,
+      "difficulty": "Tourist",
+      "description": "Il sentiero è molto facile e frequentato, ma occorre una sufficiente capacità di orientamento, in quanto presenta diverse diramazioni.",
+      "track_file": "tracks/pietraborga da piossasco.gpx",
+      "start_point": 11,
+      "end_point": 12,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 7,
+    "fields": {
+      "title": "Sentiero per TESTA DI GARITTA NUOVA da BORGATA RUÀ",
+      "length": 18,
+      "expected_time": 240,
+      "ascent": 2385,
+      "difficulty": "Hiker",
+      "description": "Dalla vetta, nelle giornate con il cielo terso, la vista sul Monviso è una delle più suggestive di tutta la Valle Varaita essendo proprio sul confine con la Valle Po.",
+      "track_file": "tracks/Testa di Garitta Nuova da Borgata Rua.gpx",
+      "start_point": 13,
+      "end_point": 14,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 8,
+    "fields": {
+      "title": "Sentiero per la CIMA DI CROSA",
+      "length": 11,
+      "expected_time": 240,
+      "ascent": 2536,
+      "difficulty": "Hiker",
+      "description": "– Come accennato, io ho trovato alcuni pezzi con la neve, che rendevano un po’ difficoltoso individuare il    sentiero, con tratti anche scivolosi. Non ho avuto la necessità di ricorrere a nessun tipo di sostegno, anche nel traverso verticale sulla neve. In assenza di neve, il sentiero, come già detto, è visibilissimo. ",
+      "track_file": "tracks/Borgata Rua-Cima di Crosa.gpx",
+      "start_point": 15,
+      "end_point": 16,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 9,
+    "fields": {
+      "title": "Sentiero per MONTE RIBA DEL GIAS",
+      "length": 8,
+      "expected_time": 300,
+      "ascent": 2381,
+      "difficulty": "Tourist",
+      "description": "Dall’ometto di pietra possiamo vedere chiaramente tutta la cresta che separa Valle Varaita dalla Valle Po e spostando lo sguardo a desta del colle Cervetto vediamo chiaramente Riba del Gias, riconoscibile come la punta più elevata della cresta.",
+      "track_file": "tracks/Monte Riba del Gias da Becetto(Rua).gpx",
+      "start_point": 17,
+      "end_point": 18,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 10,
+    "fields": {
+      "title": "Sentiero per il RIFUGIO MEIRA GARNERI da SAMPEYRE",
+      "length": 8,
+      "expected_time": 120,
+      "ascent": 1850,
+      "difficulty": "Hiker",
+      "description": "Questo itinerario è molto molto suggestivo da percorrere nelle notti di luna piena dove, previa prenotazione, è possibile cenare al rifugio.",
+      "track_file": "tracks/Rifugio Meira Garneri da Sampeyre.gpx",
+      "start_point": 19,
+      "end_point": 20,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 11,
+    "fields": {
+      "title": "Sentiero per i LAGHI DEL MONVISO",
+      "length": 10,
+      "expected_time": 150,
+      "ascent": 2200,
+      "difficulty": "Hiker",
+      "description": "Il terreno è un poco scosceso in alcuni tratti e si presenta pietroso.",
+      "track_file": "tracks/Pian della Regina - Laghi del Monviso.gpx",
+      "start_point": 20,
+      "end_point": 21,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 12,
+    "fields": {
+      "title": "Greenway Del Lago Di Como",
+      "length": 11,
+      "expected_time": 210,
+      "ascent": 276,
+      "difficulty": "Tourist",
+      "description": "Il terreno è pianeggiante. C'è una piccola salita e la pista non è molto sassosa.",
+      "track_file": "tracks/GreenWay.gpx",
+      "start_point": 22,
+      "end_point": 23,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 13,
+    "fields": {
+      "title": "Il Sentiero Degli Dei",
+      "length": 7,
+      "expected_time": 180,
+      "ascent": -500,
+      "difficulty": "Hiker",
+      "description": "Il sentiero è roccioso e non è asfaltato. Presenta alcune salite, ma nel complesso è un'escursione in discesa. Non c'è una ringhiera protettiva, quindi non è consigliabile farlo con i bambini. Anche le persone con vertigini dovrebbero evitarlo.",
+      "track_file": "tracks/Il-Sentiero-Degli-Dei.gpx",
+      "start_point": 24,
+      "end_point": 25,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 14,
+    "fields": {
+      "title": "Sentiero Monterosso - Vernazza",
+      "length": 3,
+      "expected_time": 80,
+      "ascent": 175,
+      "difficulty": "Tourist",
+      "description": "Il sentiero dal lato di Monterosso guadagna bruscamente quota, quindi dovrai salire 500 gradini, lastricati sull'antico sentiero.",
+      "track_file": "tracks/SentieroMonterosso.gpx",
+      "start_point": 26,
+      "end_point": 27,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 100,
+    "fields": {
+      "title": "Riserva dello zingaro",
+      "length": 6,
+      "expected_time": 81,
+      "ascent": 148,
+      "difficulty": "Hiker",
+      "description": "Una stupenda escursione tra mare e vegetazione, l'unica difficoltà nell'affrontarla è la temperatura estiva",
+      "track_file": "tracks/Riserva dello zingaro.gpx",
+      "start_point": 101,
+      "end_point": 102,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 103,
+    "fields": {
+      "title": "Passeggiata per il bosco scorace",
+      "length": 4,
+      "expected_time": 80,
+      "ascent": 320,
+      "difficulty": "Hiker",
+      "description": "Alla scoperta dei bosci e della campagna che circonda la natura incontaminata",
+      "track_file": "tracks/Passeggiata per il bosco scorace.gpx",
+      "start_point": 104,
+      "end_point": 105,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 106,
+    "fields": {
+      "title": "Monte Sparagio",
+      "length": 7,
+      "expected_time": 170,
+      "ascent": 1090,
+      "difficulty": "Hiker",
+      "description": "Una scalata per ammirare al meglio il sole al tramonto che si spegne sul mare",
+      "track_file": "tracks/Monte sparagio.gpx",
+      "start_point": 107,
+      "end_point": 108,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 109,
+    "fields": {
+      "title": "Monte Erice e Torretta Pepoli",
+      "length": 5,
+      "expected_time": 130,
+      "ascent": 1090,
+      "difficulty": "Hiker",
+      "description": "Una passeggiata alla scoperta del monte Erice e della torretta Pepoli",
+      "track_file": "tracks/Monte erice e torretta pepoli.gpx",
+      "start_point": 110,
+      "end_point": 111,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 112,
+    "fields": {
+      "title": "Monte Cofano",
+      "length": 6,
+      "expected_time": 155,
+      "ascent": 610,
+      "difficulty": "Hiker",
+      "description": "Escursione sul monte Cofano guardando il mare",
+      "track_file": "tracks/Monte cofano.gpx",
+      "start_point": 113,
+      "end_point": 114,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 115,
+    "fields": {
+      "title": "Lago di Garda",
+      "length": 5,
+      "expected_time": 90,
+      "ascent": 88,
+      "difficulty": "Hiker",
+      "description": "Escursione sul lago di Garda",
+      "track_file": "tracks/Lago di garda.gpx",
+      "start_point": 116,
+      "end_point": 117,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 118,
+    "fields": {
+      "title": "Lago Poma",
+      "length": 5,
+      "expected_time": 80,
+      "ascent": 205,
+      "difficulty": "Hiker",
+      "description": "Escursione sul lago Poma",
+      "track_file": "tracks/Lago poma.gpx",
+      "start_point": 119,
+      "end_point": 120,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 121,
+    "fields": {
+      "title": "Favignana",
+      "length": 16,
+      "expected_time": 280,
+      "ascent": 288,
+      "difficulty": "Hiker",
+      "description": "Visita dell'isola di favignana",
+      "track_file": "tracks/Favignana.gpx",
+      "start_point": 122,
+      "end_point": 123,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 124,
+    "fields": {
+      "title": "Sentiero per l'Etna",
+      "length": 18,
+      "expected_time": 445,
+      "ascent": 2199,
+      "difficulty": "Pro Hiker",
+      "description": "Escursione sull'Etna",
+      "track_file": "tracks/Etna.gpx",
+      "start_point": 125,
+      "end_point": 126,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 127,
+    "fields": {
+      "title": "Parco dei Sicani",
+      "length": 5,
+      "expected_time": 115,
+      "ascent": 1170,
+      "difficulty": "Hiker",
+      "description": "Parco dei Sicani",
+      "track_file": "tracks/Parco dei Sicani.gpx",
+      "start_point": 128,
+      "end_point": 129,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 128,
+    "fields": {
+      "title": "HPB Coreggia: Putigano to Alb",
+      "length": 19,
+      "expected_time": 286,
+      "ascent": 195,
+      "difficulty": "moderate",
+      "description": "A long (approx 18.5km) linear walk which can be achieved with the help of the railway",
+      "track_file": "tracks/t47994530_hpb_coreggia-.gpx",
+      "start_point": 131,
+      "end_point": 132,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 129,
+    "fields": {
+      "title": "Appian Way Stage 04: Grottagli",
+      "length": 25,
+      "expected_time": 359,
+      "ascent": 20,
+      "difficulty": "moderate",
+      "description": "cami caminho cammino chemin chemins compostela itineraire jacob jacobeo jacobi jacobs jacobsweg jacques james james’ jaume sant st ste saint san path route ruta via voie way of weg ]",
+      "track_file": "tracks/t128823133_appian_way_stage_04-.gpx",
+      "start_point": 133,
+      "end_point": 134,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 130,
+    "fields": {
+      "title": "Appian Way Stage 05: Taranto-M",
+      "length": 22,
+      "expected_time": 319,
+      "ascent": 89,
+      "difficulty": "moderate",
+      "description": "cami caminho cammino chemin chemins compostela itineraire jacob jacobeo jacobi jacobs jacobsweg jacques james james’ jaume sant st ste saint san path route ruta via voie way of weg ]",
+      "track_file": "tracks/t128823134_appian_way_stage_05-.gpx",
+      "start_point": 135,
+      "end_point": 136,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 131,
+    "fields": {
+      "title": "Percorso, 07/feb/2020 17.53.04",
+      "length": 6,
+      "expected_time": 91,
+      "ascent": 28,
+      "difficulty": "moderate",
+      "description": "\"MARATONA\" PERCORSO 1 CITTADINO MARATONA, PERCORSO CITTADINO MARK 1",
+      "track_file": "tracks/t147231904_percorso-_07-feb-2020.gpx",
+      "start_point": 137,
+      "end_point": 138,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 132,
+    "fields": {
+      "title": "MARATONA PER CHI CAMMINA (III)",
+      "length": 5,
+      "expected_time": 68,
+      "ascent": 14,
+      "difficulty": "moderate",
+      "description": "MARATONA PER CHI CAMMINA (III) The Most Beautiful hikes in ItalyTravel Guide Map / Italy Italy › Apulia › Taranto › Taranto Similar routes nearby  These suggestions were created automatically. QUESTIO",
+      "track_file": "tracks/t147231907_maratona_per_chi.gpx",
+      "start_point": 139,
+      "end_point": 140,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 133,
+    "fields": {
+      "title": "maratona per chi cammina (IV)",
+      "length": 5,
+      "expected_time": 77,
+      "ascent": 8,
+      "difficulty": "moderate",
+      "description": "maratona per chi cammina (IV)",
+      "track_file": "tracks/t147231908_maratona_per_chi.gpx",
+      "start_point": 141,
+      "end_point": 142,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 134,
+    "fields": {
+      "title": "MARATONA PERIFERIA CORSA (I)",
+      "length": 11,
+      "expected_time": 308,
+      "ascent": 24,
+      "difficulty": "moderate",
+      "description": "MARATONA PERIFERIA CORSA (I)",
+      "track_file": "tracks/t147231905_maratona_periferia.gpx",
+      "start_point": 143,
+      "end_point": 144,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 135,
+    "fields": {
+      "title": "Punta Tresino from Agropoli to",
+      "length": 13,
+      "expected_time": 260,
+      "ascent": 174,
+      "difficulty": "easy",
+      "description": "Gentle coastal walk along the Punta Tresino from Agropoli train station to Santa Maria di Castellabate.",
+      "track_file": "tracks/t800231309_punta_tresino_from.gpx",
+      "start_point": 145,
+      "end_point": 146,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 136,
+    "fields": {
+      "title": "Path of the Sirens",
+      "length": 15,
+      "expected_time": 270,
+      "ascent": 60,
+      "difficulty": "moderate",
+      "description": "Out and back walk along the Path of the Sirens, from Santa Maria di Castellabate to its sister village of San Marco di Castellabate and beyond to Punta Licosa.",
+      "track_file": "tracks/t800393858_path_of_the_sirens.gpx",
+      "start_point": 147,
+      "end_point": 148,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 137,
+    "fields": {
+      "title": "Path of the Sirens - Extended",
+      "length": 20,
+      "expected_time": 354,
+      "ascent": 99,
+      "difficulty": "moderate",
+      "description": "Out and back walk along the Path of the Sirens, from Santa Maria di Castellabate to its sister village of San Marco di Castellabate and beyond to Punta Licosa.",
+      "track_file": "tracks/t800231648_path_of_the_sirens_-.gpx",
+      "start_point": 149,
+      "end_point": 150,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 138,
+    "fields": {
+      "title": "Mongelia-Levanto",
+      "length": 18,
+      "expected_time": 370,
+      "ascent": 1481,
+      "difficulty": "Hiker",
+      "description": "Stage of a pilgrimage along ancient Roman roads the entire length of Italy",
+      "track_file": "tracks/Mongelia-Levanto.gpx",
+      "start_point": 151,
+      "end_point": 152,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 139,
+    "fields": {
+      "title": "Castell' Arquato to Fidenza",
+      "length": 23,
+      "expected_time": 390,
+      "ascent": 296,
+      "difficulty": "Moderate",
+      "description": "walk is along a peaceful stretch of the Via Francigena, where you can contemplate your experiences of the previous days",
+      "track_file": "tracks/castel-arquato-to-fidenza.gpx",
+      "start_point": 153,
+      "end_point": 154,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 140,
+    "fields": {
+      "title": "Saline Farnesiane e Costa Marenga",
+      "length": 8,
+      "expected_time": 140,
+      "ascent": 117,
+      "difficulty": "Easy",
+      "description": "Dal museo MuMab di San Nicomede a Salsominore, rientro da Costa Marenga, passando per l'ultimo esempio di salina del territorio",
+      "track_file": "tracks/saline-farnesiane-e.gpx",
+      "start_point": 155,
+      "end_point": 156,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 141,
+    "fields": {
+      "title": "Fornovo to Cassio",
+      "length": 20,
+      "expected_time": 420,
+      "ascent": 1103,
+      "difficulty": "Moderate",
+      "description": "Situated at 1,040m it divides the Ligurian and Tuscan Apennines. The superb mountain scenery is a highlight and in addition to this, you will pass through the Salti del Diavolo, unusual rock formations which were formed over 80 million years ago. ",
+      "track_file": "tracks/fornovo-cassio.gpx",
+      "start_point": 157,
+      "end_point": 158,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 142,
+    "fields": {
+      "title": "Carpaneto to Castell'Arquato",
+      "length": 13,
+      "expected_time": 240,
+      "ascent": 212,
+      "difficulty": "Moderate",
+      "description": "A delightful shorter day of walking awaits as you travel through vineyard-covered hills and an area famed for its Colli Piacentini wines",
+      "track_file": "tracks/car-castel.gpx",
+      "start_point": 159,
+      "end_point": 160,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 143,
+    "fields": {
+      "title": "Cassio to Berceto",
+      "length": 10,
+      "expected_time": 210,
+      "ascent": 268,
+      "difficulty": "Moderate",
+      "description": "Shady forests, hamlets and reach the crest of a hill before descending into Berceto",
+      "track_file": "tracks/cassio-berceto.gpx",
+      "start_point": 161,
+      "end_point": 162,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 144,
+    "fields": {
+      "title": "Previdè to Filattiera",
+      "length": 21,
+      "expected_time": 390,
+      "ascent": 373,
+      "difficulty": "Moderate",
+      "description": "Along the way today you will see many interesting pilgrimage sites, such as small alters, little chapels and signs that during medieval times faith was so much a part of life",
+      "track_file": "tracks/pre-fil.gpx",
+      "start_point": 163,
+      "end_point": 164,
+      "local_guide": 17
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 145,
+    "fields": {
+      "title": "Belvedere Murgia",
+      "length": 4,
+      "expected_time": 120,
+      "ascent": 412,
+      "difficulty": "Tourist",
+      "description": "Scopri questo sentiero ad anello di 4,3-km vicino a Matera, Basilicata. Un percorso generalmente considerato facile che richiede una media di 1 o 36 min per essere completato.",
+      "track_file": "tracks/Matera_-_Belvedere_Murgia_Materana.gpx",
+      "start_point": 165,
+      "end_point": 165,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 146,
+    "fields": {
+      "title": "Cave di Murgia",
+      "length": 4,
+      "expected_time": 240,
+      "ascent": 422,
+      "difficulty": "Tourist",
+      "description": "Sperimenta questo sentiero ad anello di 4,2-km vicino a Matera, Basilicata. Un percorso generalmente considerato moderatamente impegnativo che richiede una media di 1 o 4 min per essere completato. ",
+      "track_file": "tracks/Cave_di_Murgia_-_Cappella_di_San_Falcione.gpx",
+      "start_point": 166,
+      "end_point": 166,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 147,
+    "fields": {
+      "title": "Pietrapertosa",
+      "length": 1,
+      "expected_time": 240,
+      "ascent": 1005,
+      "difficulty": "Tourist",
+      "description": "Dirigiti su questo sentiero ad anello di 10,3-km vicino a Pietrapertosa, Basilicata. Un percorso generalmente considerato moderatamente impegnativo che richiede una media di 4 o 30 min per essere completato",
+      "track_file": "tracks/Pietrapertosa_-_Castelmezzano.gpx",
+      "start_point": 167,
+      "end_point": 167,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 148,
+    "fields": {
+      "title": "Parco Radogna",
+      "length": 8,
+      "expected_time": 240,
+      "ascent": 422,
+      "difficulty": "Tourist",
+      "description": "Esplora questo sentiero ad anello di 8,2-km vicino a Matera, Basilicata. Un percorso generalmente considerato moderatamente impegnativo che richiede una media di 2 o 38 min per essere completato",
+      "track_file": "tracks/Parco_Radogna_-_Matera.gpx",
+      "start_point": 168,
+      "end_point": 168,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 149,
+    "fields": {
+      "title": "Piano del Pollino",
+      "length": 12,
+      "expected_time": 240,
+      "ascent": 1971,
+      "difficulty": "Tourist",
+      "description": "Sperimenta questo sentiero ad anello di 14,2-km vicino a Viggianello, Basilicata. Un percorso generalmente considerato moderatamente impegnativo che richiede una media di 4 o 59 min per essere completato.",
+      "track_file": "tracks/Piano_del_Pollino_-_Giardino_degli_Dei.gpx",
+      "start_point": 169,
+      "end_point": 169,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 150,
+    "fields": {
+      "title": "Ferrata Marciosa",
+      "length": 7,
+      "expected_time": 240,
+      "ascent": 989,
+      "difficulty": "Tourist",
+      "description": "Scopri questo sentiero ad anello di 7,7-km vicino a Castelmezzano, Basilicata.",
+      "track_file": "tracks/Via_Ferrata_Marciosa_-_Via_Ferrata_Salemm.gpx",
+      "start_point": 170,
+      "end_point": 170,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 151,
+    "fields": {
+      "title": "Sentiero CAI del Bosco Favino",
+      "length": 12,
+      "expected_time": 240,
+      "ascent": 1823,
+      "difficulty": "Tourist",
+      "description": "Goditi questo sentiero andata e ritorno di 12,7-km vicino a Castelsaraceno, Basilicata. Un percorso generalmente considerato moderatamente impegnativo che richiede una media di 4 o 58 min per essere completato.",
+      "track_file": "tracks/Sentiero_CAI_970__dal_Bosco_Favino_al_Monte_Alpi.gpx",
+      "start_point": 171,
+      "end_point": 171,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 152,
+    "fields": {
+      "title": "Colle Impiso",
+      "length": 14,
+      "expected_time": 240,
+      "ascent": 1967,
+      "difficulty": "Tourist",
+      "description": "Scopri questo sentiero andata e ritorno di 14,3-km vicino a Terranova di Pollino, Basilicata. Un percorso generalmente considerato moderatamente impegnativo che richiede una media di 5 o 1 min per essere completato",
+      "track_file": "tracks/Colle_Impiso_-_Piani_di_Vacquarro_-_Grande_Porta_del_Pollino.gpx",
+      "start_point": 172,
+      "end_point": 172,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 153,
+    "fields": {
+      "title": "Parco delle Murgie",
+      "length": 6,
+      "expected_time": 240,
+      "ascent": 422,
+      "difficulty": "Tourist",
+      "description": "Controlla questo sentiero ad anello di 6,8-km vicino a Matera, Basilicata. Un percorso generalmente considerato moderatamente impegnativo che richiede una media di 2 o 9 min per essere completato",
+      "track_file": "tracks/Parco_delle_Murgie_-_Chiese_Rupestri_di_Matera.gpx",
+      "start_point": 173,
+      "end_point": 173,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 154,
+    "fields": {
+      "title": "Picciano Tappa 77",
+      "length": 29,
+      "expected_time": 240,
+      "ascent": 438,
+      "difficulty": "Tourist",
+      "description": "Prova questo sentiero da punto a punto di 29,8-km vicino a Matera, Basilicata. Un percorso generalmente considerato impegnativo che richiede una media di 7 o 26 min per essere completato",
+      "track_file": "tracks/Via_Peuceta_Tappa_7__Picciano_-_Matera.gpx",
+      "start_point": 174,
+      "end_point": 175,
+      "local_guide": 1
+    }
+  },
+  {
+    "model": "hiketracking.hut",
+    "pk": 1,
+    "fields": {
+      "name": "The hut Rifugio Torino",
+      "n_beds": 97,
+      "fee": 65.0,
+      "desc": "Il rifugio Torino è un rifugio alpino, situato de facto in Italia nel territorio del comune di Courmayeur, nell'alta Valdigne, in Valle d'Aosta, sul massiccio del Monte Bianco",
+      "point": 1
+    }
+  },
+  {
+    "model": "hiketracking.hut",
+    "pk": 2,
+    "fields": {
+      "name": "Rifugio Colle del Lys",
+      "n_beds": 112,
+      "fee": 40.0,
+      "desc": "Lo Yeti Village è un nuovo complesso sciistico circondato dalla splendida natura del Colle del Lys",
+      "point": 108
+    }
+  },
+  {
+    "model": "hiketracking.facility",
+    "pk": 1,
+    "fields": {
+      "name": "Parking"
+    }
+  },
+  {
+    "model": "hiketracking.facility",
+    "pk": 2,
+    "fields": {
+      "name": "Wifi"
+    }
+  },
+  {
+    "model": "hiketracking.hutfacility",
+    "pk": 1,
+    "fields": {
+      "hut": 1,
+      "facility": 1
+    }
+  },
+  {
+    "model": "hiketracking.hutfacility",
+    "pk": 2,
+    "fields": {
+      "hut": 1,
+      "facility": 2
+    }
+  },
+  {
+    "model": "hiketracking.hutfacility",
+    "pk": 3,
+    "fields": {
+      "hut": 2,
+      "facility": 1
+    }
+  },
+  {
+    "model": "hiketracking.parkinglot",
+    "pk": 1,
+    "fields": {
+      "name": "Campeggi Valbondione",
+      "fee": 15.0,
+      "n_cars": 271,
+      "desc": "Il Campeggio Valbondione dispone di 271 piazzole, tutte fornite di corrente elettrica, ideali per roulotte, camper o tende. È situato a Valbondione (BG), in alta Val Seriana, alla base delle più alte vette delle Alpi Orobie e alla confluenza dei fiumi Serio e Bondione",
+      "point": 103
+    }
+  },
+  {
+    "model": "hiketracking.parkinglot",
+    "pk": 2,
+    "fields": {
+      "name": "CAMPING SASS DLACIA",
+      "fee": 30.0,
+      "n_cars": 156,
+      "desc": "Il Camping Sass Dlacia si trova nel  paesino di San Cassiano (BZ) in Alta Badia, alle porte del Parco Naturale Fanes-Senes-Braies. Circondato da boschi e pascoli alle pendici delle Dolomiti, è il punto di partenza perfetto per passeggiate, escursioni e pedalate.",
+      "point": 104
+    }
+  },
+  {
+    "model": "hiketracking.parkinglot",
+    "pk": 3,
+    "fields": {
+      "name": "La sosta Smarano",
+      "fee": 50.0,
+      "n_cars": 98,
+      "desc": "Una posizione privilegiata per raggiungere facilmente i laghi di Coredo e Tavon e il grande bacino di Santa Giustina, ma anche i centri abitati.",
+      "point": 105
+    }
+  },
+  {
+    "model": "hiketracking.parkinglot",
+    "pk": 4,
+    "fields": {
+      "name": "AREA CAMPER TSCHAVAL",
+      "fee": 28.0,
+      "n_cars": 256,
+      "desc": "Al fondo della magnifica valle del LYS ( o di GRESSONEY), ai piedi del massiccio del MONTEROSA, vi aspetta un accogliente area di sosta per il vostro camper. La struttura nasce dal desiderio di un ex camperista di creare una struttura come si sarebbe aspettato di trovare in una località di montagna.",
+      "point": 106
+    }
+  },
+  {
+    "model": "hiketracking.huthike",
+    "pk": 1,
+    "fields": {
+      "hike": 300,
+      "hut": 1
+    }
+  },
+  {
+    "model": "hiketracking.huthike",
+    "pk": 2,
+    "fields": {
+      "hike": 2,
+      "hut": 1
+    }
+  },
+  {
+    "model": "hiketracking.hutworker",
+    "pk": 1,
+    "fields": {
+      "hutworker": 4,
+      "hut": 1
+    }
+  },
+  {
+    "model": "hiketracking.point",
+    "pk" : 176,
+    "fields": {
+      
+      "latitude": 45.188244,
+      "longitude": 7.0768,
+      "province": "Torino",
+      "village": "Mompantero",
+      "address": "Nice view",
+      "type": "none"
+    }
+  },
+  {
+    "model": "hiketracking.hikereferencepoint",
+    "fields": {
+      "hike": 300,
+      "point": 176
+    }
+  },
+  {
+    "model": "hiketracking.hike",
+    "pk": 1000,
+    "fields": {
+      "title": "Terre di Matilda",
+      "length": 6.9,
+      "expected_time": 128,
+      "ascent": 252,
+      "difficulty": "Hiker",
+      "description": "Un viaggio nella storia e nella natura di un territorio immerso nel verde delle colline pisane nel cuore della Toscana, attraverso un paesaggio incontaminato.",
+      "track_file": "tracks/Pian della Regina - Laghi del Monviso.gpx",
+      "start_point": 20,
+      "end_point": 21,
+      "local_guide": 1
+    }
+  },{
+    "model": "hiketracking.point",
+    "pk" : 176,
+    "fields": {
+      
+      "latitude": 45.188244,
+      "longitude": 7.0768,
+      "province": "Torino",
+      "village": "Mompantero",
+      "address": "Nice view",
+      "type": "none"
+    }
+  },{
+    "model": "hiketracking.point",
+    "pk" : 176,
+    "fields": {
+      
+      "latitude": 45.188244,
+      "longitude": 7.0768,
+      "province": "Torino",
+      "village": "Mompantero",
+      "address": "Nice view",
+      "type": "none"
+    }
+  }
+]

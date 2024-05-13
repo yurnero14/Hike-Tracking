@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx version="1.1" creator="outdooractive - http://www.outdooractive.com" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" xmlns:oa="http://www.outdooractive.com/GPX/Extensions/1">
+  <metadata>
+    <name>salita a vulcano</name>
+    <author>
+      <name>adriano assedi - Community</name>
+    </author>
+    <link href="https://www.outdooractive.com/r/146607180"/>
+    <time>2021-09-15T13:03:53.679</time>
+    <extensions>
+      <oa:oaCategory>hikingTourTrail</oa:oaCategory>
+    </extensions>
+  </metadata>
+  <trk>
+    <name>salita a vulcano</name>
+    <desc>il sentiero che dal Porto di Levante dell&apos;Isola di Vulcano permette di raggiungere l&apos;ambiente dantesco del Gran Cratere, la fucina di Efesto, dio greco del fuoco</desc>
+    <type>hikingTourTrail</type>
+    <trkseg>
+      <trkpt lat="38.414366" lon="14.960139">
+        <ele>8.61816</ele>
+      </trkpt>
+      <trkpt lat="38.413558" lon="14.959667">
+        <ele>6.81682</ele>
+      </trkpt>
+      <trkpt lat="38.409691" lon="14.954731">
+        <ele>24.37277</ele>
+      </trkpt>
+      <trkpt lat="38.408649" lon="14.953766">
+        <ele>34.93417</ele>
+      </trkpt>
+      <trkpt lat="38.408212" lon="14.95398">
+        <ele>43.09714</ele>
+      </trkpt>
+      <trkpt lat="38.407825" lon="14.954388">
+        <ele>57.52527</ele>
+      </trkpt>
+      <trkpt lat="38.408329" lon="14.955997">
+        <ele>71.47224</ele>
+      </trkpt>
+      <trkpt lat="38.406749" lon="14.955204">
+        <ele>109.14748</ele>
+      </trkpt>
+      <trkpt lat="38.405151" lon="14.955053">
+        <ele>144.72768</ele>
+      </trkpt>
+      <trkpt lat="38.405151" lon="14.955053">
+        <ele>144.72768</ele>
+        <extensions>
+          <oa:locType>calcWayPoint</oa:locType>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.40384" lon="14.955482">
+        <ele>176.89382</ele>
+      </trkpt>
+      <trkpt lat="38.404344" lon="14.955719">
+        <ele>188.82802</ele>
+      </trkpt>
+      <trkpt lat="38.403201" lon="14.958787">
+        <ele>306.01837</ele>
+      </trkpt>
+      <trkpt lat="38.402142" lon="14.960268">
+        <ele>328.03663</ele>
+      </trkpt>
+      <trkpt lat="38.401763" lon="14.96178">
+        <ele>334.99327</ele>
+      </trkpt>
+      <trkpt lat="38.401906" lon="14.963454">
+        <ele>341.94221</ele>
+      </trkpt>
+      <trkpt lat="38.402293" lon="14.964323">
+        <ele>353.42258</ele>
+      </trkpt>
+      <trkpt lat="38.403192" lon="14.965396">
+        <ele>377.02144</ele>
+      </trkpt>
+      <trkpt lat="38.403192" lon="14.965396">
+        <ele>377.02144</ele>
+        <extensions>
+          <oa:locType>calcWayPoint</oa:locType>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.403697" lon="14.96545">
+        <ele>370.54929</ele>
+      </trkpt>
+      <trkpt lat="38.404672" lon="14.964377">
+        <ele>304.94353</ele>
+      </trkpt>
+      <trkpt lat="38.405378" lon="14.963808">
+        <ele>281.09698</ele>
+      </trkpt>
+      <trkpt lat="38.405942" lon="14.962939">
+        <ele>275.66041</ele>
+      </trkpt>
+      <trkpt lat="38.406337" lon="14.96192">
+        <ele>269.50612</ele>
+      </trkpt>
+      <trkpt lat="38.406362" lon="14.961287">
+        <ele>267.63339</ele>
+      </trkpt>
+      <trkpt lat="38.405992" lon="14.960053">
+        <ele>268.61477</ele>
+      </trkpt>
+      <trkpt lat="38.405992" lon="14.960053">
+        <ele>268.61477</ele>
+        <extensions>
+          <oa:locType>calcWayPoint</oa:locType>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.406026" lon="14.959388">
+        <ele>265.25446</ele>
+      </trkpt>
+      <trkpt lat="38.40595" lon="14.959002">
+        <ele>262.59222</ele>
+      </trkpt>
+      <trkpt lat="38.406144" lon="14.95868">
+        <ele>251.46848</ele>
+      </trkpt>
+      <trkpt lat="38.406455" lon="14.95869">
+        <ele>241.16462</ele>
+      </trkpt>
+      <trkpt lat="38.406362" lon="14.958004">
+        <ele>224.76626</ele>
+      </trkpt>
+      <trkpt lat="38.406068" lon="14.957231">
+        <ele>211.70413</ele>
+      </trkpt>
+      <trkpt lat="38.405429" lon="14.956523">
+        <ele>202.91247</ele>
+      </trkpt>
+      <trkpt lat="38.40458" lon="14.955794">
+        <ele>189.22288</ele>
+      </trkpt>
+      <trkpt lat="38.403966" lon="14.955279">
+        <ele>169.44236</ele>
+      </trkpt>
+      <trkpt lat="38.405025" lon="14.955021">
+        <ele>145.45074</ele>
+      </trkpt>
+      <trkpt lat="38.405866" lon="14.955064">
+        <ele>131.57546</ele>
+      </trkpt>
+      <trkpt lat="38.406614" lon="14.955257">
+        <ele>115.362</ele>
+      </trkpt>
+      <trkpt lat="38.408405" lon="14.955751">
+        <ele>63.9577</ele>
+      </trkpt>
+      <trkpt lat="38.407783" lon="14.954249">
+        <ele>56.27578</ele>
+      </trkpt>
+      <trkpt lat="38.407783" lon="14.954249">
+        <ele>56.27578</ele>
+        <extensions>
+          <oa:locType>calcWayPoint</oa:locType>
+        </extensions>
+      </trkpt>
+      <trkpt lat="38.408741" lon="14.953905">
+        <ele>33.84192</ele>
+      </trkpt>
+      <trkpt lat="38.409826" lon="14.954978">
+        <ele>23.67048</ele>
+      </trkpt>
+      <trkpt lat="38.413558" lon="14.959806">
+        <ele>6.63296</ele>
+      </trkpt>
+      <trkpt lat="38.414231" lon="14.960139">
+        <ele>7.29294</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
