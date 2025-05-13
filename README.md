@@ -8,6 +8,14 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
 
+## TL;DR + My role:
+Web application developed to track hiking routes across Italy, built as part of an Agile software development course. Followed full Scrum methodology with sprint planning, retrospectives, and product demos every two weeks.
+- Developed key frontend features in React, including user interface for hike selection and role-based access for hikers, local guides, and hut managers
+- Wrote unit and integration tests to ensure component reliability and smooth feature rollout
+- Contributed to retrospective documentation, working closely with teammates and professors acting as Product Owners
+- Used YouTrack for sprint planning, backlog tracking, effort logging (12 hours/week per member), and agile board management
+- Integrated SonarQube for detecting code smells and maintaining code quality across the project
+
 ## Table of Contents
 - [Background](#background) 
 - [Install](#install)
