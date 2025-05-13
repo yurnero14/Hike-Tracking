@@ -29,7 +29,7 @@ This project is developed for Software engineering II course. In this course, we
 ## Install
 Use following command to download the project:
 ```sh
-$ git clone git@github.com:christiancagnazzo/se2022-02-HikeTracking.git
+$ git clone https://github.com/yurnero14/Hike-Tracking.git
 ```
 or you can directly download the file.   
   
